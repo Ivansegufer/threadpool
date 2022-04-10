@@ -26,6 +26,6 @@ struct ThreadJob
 };
 
 ThreadPool thread_pool_constructor(int num_threads);
-ThreadJob thread_job_constructor(thread_job_t job, void *args);
+ThreadJob thread_job_constructor(thread_job_t job_function, void *args);
 
 #endif
